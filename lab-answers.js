@@ -25,3 +25,8 @@ wolfy[3]="Gotham City";
 dart.push("Hawkins");
 wolfy.shift(0);
 wolfy.unshift("Gameboy");
+
+ninjaTurtles=['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+for (let i = 0; i < ninjaTurtles.length; i++) {
+    console.log(ninjaTurtles[i].toUpperCase());
+  }
