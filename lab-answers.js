@@ -30,3 +30,50 @@ ninjaTurtles=['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 for (let i = 0; i < ninjaTurtles.length; i++) {
     console.log(ninjaTurtles[i].toUpperCase());
   }
+
+  
+  const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+  
+  for (let i = 0; i < favMovies.length; i++) {
+    
+    if (favMovies[i]==='Titanic') {
+      console.log(i);
+    } 
+  }
+  favMovies.sort();
+  console.log(favMovies);
+  //The array is sorted alphabetically.  Yes.
+  favMovies.pop();
+  console.log(favMovies);
+  favMovies.push('Guardians of the Galaxy');
+  console.log(favMovies);
+  favMovies.reverse();
+  console.log(favMovies);
+  favMovies.shift();
+  console.log(favMovies);
+  favMovies.unshift( 'Guardians of the Galaxy');
+  console.log(favMovies);
+  for (let i = 0; i < favMovies.length; i++) {
+    
+    if (favMovies[i]==="Django Unchained" ) {
+      console.log(i);
+    } 
+  }
+  favMovies.splice(15,1,"Avatar");
+  console.log(favMovies);
+
+  let g= favMovies.length;
+  let k;
+if (g%2==0){k=g/2-1}
+  else(k=(g-1)/2);
+  console.log(k,g);
+  let i=favMovies.splice(k+1);
+  console.log(i);
+  console.log(favMovies);
+  for (let i = 0; i < favMovies.length; i++) {
+    
+    if (favMovies[i]==="Fast and Furious") {
+      console.log(i);
+    } 
+  }
+  
